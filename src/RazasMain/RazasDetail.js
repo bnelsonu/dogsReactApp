@@ -80,7 +80,7 @@ export default class RazasDetail extends Component {
                     <h1>{this.state.raza}</h1>
                     <h2>{this.state.subraza}</h2>
                     <Link className="link"
-                        to="/razas">
+                        to="/">
                         Breeds
                     </Link>
                 </div>

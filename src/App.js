@@ -11,8 +11,8 @@ export default class App extends Component {
     return (
       <Router>
           <div>
-            <Route exact  path="/razas" component={RazasMain}/>
-            <Route exact path="/detail" component={RazaDetail}/>
+            <Route exact  path="/" component={RazasMain}/>
+            <Route path="/detail" component={RazaDetail}/>
           </div>
 
       </Router>
